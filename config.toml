@@ -1,2 +1,23 @@
 baseURL = "https://andrewbell.netlify.app/"
-title = "My New Hugo Site"
+title = "Andrew Bell's blog"
+author = "Andrew Bell"
+languageCode = "en-au"
+
+theme = "strange-case"
+
+[params]
+	colorScheme = "scheme-darkbrown"
+	DateFormat = "2 Jan 2006"
+	description = "A Hugo Theme built with Bootstrap"
+	sidebarDescription = ""
+	sidebarFreeText = ""
+
+[[menu.main]]
+	name = "Hugo"
+	post = "<span class='glyphicon glyphicon-fire'></span>"
+	url = "http://gohugo.io"
+
+[[menu.main]]
+	name = "Bootstrap"
+	post = "<span class='glyphicon glyphicon-ok'></span>"
+	url = "http://getbootstrap.com"
